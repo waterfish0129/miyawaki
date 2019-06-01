@@ -156,6 +156,7 @@ article {}
   vertical-align: middle;
   font-family: 'corp_round_v1', sans-serif;
   font-size: 5.5rem;
+  font-display: block;
   letter-spacing: 14px;
   background: -webkit-linear-gradient(top, #ff6cb7, #fd0b58);
   -webkit-background-clip: text;
@@ -173,6 +174,7 @@ article {}
   padding: 16px 0;
   vertical-align: middle;
   font-family: 'corp_round_v1', sans-serif;
+    font-display: block;
   background: -webkit-linear-gradient(left, #b591c7 0, #35e6de 100%);
 background: -o-radial-gradient(left, #b591c7 0, #35e6de 100%);
 background: -moz-radial-gradient(left, #b591c7 0, #35e6de 100%);
