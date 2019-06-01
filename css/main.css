@@ -462,6 +462,11 @@ aside>div:last-child {
     height: 113px;
   }
 }
+@media screen and (max-width: 536px) {
+  .nav-control-base{
+    top:0px;
+  }
+}
 @media screen and (max-width: 480px) {
   article{
     margin-top: 100px;
