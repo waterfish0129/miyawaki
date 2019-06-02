@@ -473,7 +473,7 @@ aside>div:last-child {
   }
   .nav-main-title{
     width: 100%;
-    height: min-content;
+    height: 120px;
   }
 .nav-main-title h1{
   letter-spacing: 0px;
