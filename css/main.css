@@ -26,7 +26,7 @@
 }
 
 * {
-  font-family: Microsoft JhengHei;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 body {
@@ -103,10 +103,11 @@ header .my-logo {
 
 .nav-control-base div>a, a {
   text-decoration: none;
-  font-family: 'cwTeXYen', sans-serif;
+  /*font-family: 'cwTeXYen', sans-serif;*/
+font-family: 'Kosugi Maru', sans-serif;
   display: inline-block;
   font-size: 1.6em;
-  font-weight: 300;
+  /*font-weight: 300;*/
   line-height: 2;
   padding: 1rem 0 1rem;
   text-align: center;
@@ -172,7 +173,9 @@ article {
   margin: 0;
   display: inline-block;
   vertical-align: middle;
-  font-family: 'corp_round_v1', sans-serif;
+  /*font-family: 'corp_round_v1', sans-serif;*/
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: 700;
   font-size: 5.5rem;
   letter-spacing: 14px;
   background: -webkit-linear-gradient(top, #ff6cb7, #fd0b58);
