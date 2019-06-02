@@ -23,7 +23,7 @@
   src: url(corp_round_v1/corp_round_v1.ttf) format('truetype');
     font-display:allback;
 }
-body {
+body * {
   font-family:Microsoft JhengHei;
 }
 header {
