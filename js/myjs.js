@@ -7,8 +7,12 @@ $('document').ready(function() {
       el: ".swiper-pagination", // 分頁物件
     },
     autoplay: {
-      delay:2000,
-    }
+      delay:4000,
+    },
+    navigation: {
+  			nextEl: ".swiper-button-next", // 上一頁按鈕物件
+  			prevEl: ".swiper-button-prev", // 下一頁按鈕物件
+  		}
   })
   $('.hamberger i').on('click',function(){
     $('.hamberger .mask').show();
