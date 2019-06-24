@@ -2,6 +2,7 @@ $('document').ready(function() {
   var mySwiper = new Swiper(".swiper-container", {
     // 參數設定[註1]
     direction: "horizontal", // 方向
+    effect : 'fade',
     loop: true, // 循環
     pagination: {
       el: ".swiper-pagination", // 分頁物件

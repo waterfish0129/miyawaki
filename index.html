@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
   <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,900|Nunito:700,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,25 +35,40 @@
       </div>
       <div class="nav-control-base">
         <div class="">
-          <a href="https://www.mercari.com/jp/search/?keyword=%E5%AE%AE%E8%84%87%E5%92%B2%E8%89%AF"><i class="fa fa-picture-o" aria-hidden="true"></i>照片</a>
+          <a href="https://www.mercari.com/jp/search/?keyword=%E5%AE%AE%E8%84%87%E5%92%B2%E8%89%AF">
+            <i class="fa fa-picture-o" aria-hidden="true"></i>
+            <h5>照片</h5>
+          </a>
         </div>
         <div class="">
-          <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i>文章</a>
+          <a href="#">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            <h5>文章</h5>
+          </a>
         </div>
         <div class="">
-          <a href="#"><i class="fa fa-headphones" aria-hidden="true"></i>音樂</a>
+          <a href="#">
+            <i class="fa fa-headphones" aria-hidden="true"></i>
+            <h5>音樂</h5>
+          </a>
         </div>
         <div class="">
-          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>影片</a>
+          <a href="#">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <h5>影片</h5>
+          </a>
         </div>
         <div class="">
-          <a href="#"><i class="fa fa-user" aria-hidden="true"></i>管理</a>
+          <a href="#">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <h5>管理</h5>
+          </a>
         </div>
       </div>
     </div>
 
   </header>
-  <main>
+
     <article>
       <div class="nav-main-title">
         <!--這是標題-->
@@ -67,11 +82,11 @@
         <div class="swiper-wrapper">
           <!-- 幻燈片內容 -->
           <div class="swiper-slide">
-            <div style="background-image:url('img/1.jpg'),url('img/image_back2.jpg');">
+            <div style="background-image:url('img/1.jpg'),url('img/article_back.jpg');">
             </div>
           </div>
           <div class="swiper-slide">
-            <div style="background-image:url('img/2.gif'),url('img/image_back2.jpg');">
+            <div style="background-image:url('img/2.gif'),url('img/article_back.jpg');">
             </div>
           </div>
           <div class="swiper-slide">
@@ -86,6 +101,7 @@
         <div class="swiper-button-next"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
       </div>
     </article>
+      <main>
     <div id="mainData_panel">
       <section class="" style="background:#f8f8f8">
         <div class="list-more">
@@ -151,27 +167,61 @@
       </section>
 
       <section class="" style="">
-        <div class="row">
-          <div class="col" style="background-image:url('img/section/s1.jpg')">
-            <h5>2012</h5>
+        <div class="list-more">
+          <a href="">Image</a>
+        </div>
+        <div class="row" style="clear:both">
+          <div class="col">
+            <div class="img" style="background-image:url('img/section/s1.jpg')">
+
+            </div>
+            <div class="warp">
+              <h5>2012</h5>
+            </div>
           </div>
-          <div class="col" style="background-image:url('img/section/s2.jpg')">
-            <h5>2013</h5>
+          <div class="col">
+            <div class="img" style="background-image:url('img/section/s2.jpg')">
+            </div>
+            <div class="warp">
+              <h5>2013</h5>
+            </div>
           </div>
-          <div class="col" style="background-image:url('img/section/s3.jpg')">
-            <h5>2014</h5>
+          <div class="col">
+            <div class="img" style="background-image:url('img/section/s3.jpg')">
+            </div>
+            <div class="warp">
+              <h5>2014</h5>
+            </div>
           </div>
-          <div class="col" style="background-image:url('img/section/s5.jpg')">
-            <h5>2015</h5>
+          <div class="col">
+            <div class="img" style="background-image:url('img/section/s5.jpg')">
+
+            </div>
+            <div class="warp">
+              <h5>2015</h5>
+            </div>
           </div>
-          <div class="col" style="background-image:url('img/section/s4.jpg')">
-            <h5>2016</h5>
+          <div class="col">
+            <div class="img" style="background-image:url('img/section/s4.jpg')">
+
+            </div>
+            <div class="warp">
+              <h5>2016</h5>
+            </div>
+
           </div>
         </div>
       </section>
 
-      <section class="" style="background-image:url('img/s102.png')">
-        <div class="sidelist">
+      <section class="" style="">
+        <div class="list-more">
+          <a href="">Video</a>
+        </div>
+        <div class="videoBase">
+          <div class='embed-container'><iframe src='https://www.youtube.com/embed/Nhun0p7hN7M' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="videolist">
           <div class="">
             sdfsdf
           </div>
@@ -181,10 +231,7 @@
           <div class="">
             sdfsdf
           </div>
-        </div>
-        <div class="view">
 
-        </div>
       </section>
 
       <section class="" style="background-image:url('img/s103.png')">
@@ -207,11 +254,6 @@
           <div class="col" style="background-image:url('img/section/s5.jpg')"></div>
         </div>
       </section>
-
-      <div class="">
-        <center><a href="#">顯示更多</a></center>
-
-      </div>
     </div>
     <aside>
       <div class="">
